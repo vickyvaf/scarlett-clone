@@ -468,13 +468,13 @@ footer {
   }
 
   .card-item p {
-    padding: 8px;
-    font-size: 12px;
+    padding: 5px;
+    font-size: 10px;
   }
 
   .card-item i {
-    padding: 8px;
-    font-size: 12px;
+    padding: 5px;
+    font-size: 10px;
   }
 }
 
