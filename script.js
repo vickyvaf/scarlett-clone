@@ -64,6 +64,8 @@ bodyScrub.addEventListener("click", function () {
   facialWashDisplay.style.display = "none";
   //
   shampooDisplay.style.display = "none";
+
+  
 });
 
 bodyShower.addEventListener("click", function () {
@@ -164,3 +166,23 @@ shampoo.addEventListener("click", function () {
   //
   shampooDisplay.style.display = "flex";
 });
+
+
+//SIDE BAR
+const barsIcon = document.getElementById('bars-icon');
+const barsIconX = document.getElementById('bars-icon-x');
+const category = document.getElementById('category');
+
+barsIconX.style.display = 'none'
+
+barsIcon.addEventListener('click', function() {
+  category.style.transform = "translateX(0)";
+  barsIcon.style.transform = "translateX(-9999px)";
+  barsIconX.style.display = 'flex';
+})
+
+barsIconX.addEventListener('click', function() {
+  category.style.transform = "translateX(-300px)";
+  barsIcon.style.transform = "translateX(0)";
+  barsIconX.style.display = 'none';
+})
