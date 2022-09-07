@@ -426,6 +426,87 @@ footer {
   .mobile-list a:hover {
     color: var(--text-black);
   }
+
+  .card-list {
+    width: 500px !important;
+    flex-wrap: wrap;
+  }
+
+  .card-item {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-item img {
+    width: 130px;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-main {
+    padding-top: 120px;
+  }
+
+  .card-main-title {
+    font-size: 20px;
+  }
+
+  .card-list {
+    width: 420px !important;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-item {
+    width: 180px !important;
+    height: 270px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-item img {
+    width: 120px !important;
+    margin: 0 auto;
+    margin-top: -60px;
+  }
+
+  .card-item span {
+    font-size: 11px;
+  }
+
+  .card-item h2 {
+    font-size: 13px;
+  }
+
+  .card-item p {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .card-item i {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .card-list {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-list {
+    width: 800px;
+    justify-content: space-evenly;
+  }
 }
 
 @media screen and (max-width: 930px) {
