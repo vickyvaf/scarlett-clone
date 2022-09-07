@@ -431,6 +431,7 @@ footer {
 @media screen and (max-width: 480px) {
   .card-main {
     padding-top: 120px;
+    width: 100%;
   }
 
   .card-main-title {
@@ -438,32 +439,32 @@ footer {
   }
 
   .card-list {
-    width: 390px !important;
+    width: 350px !important;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
   }
 
   .card-item {
-    width: 180px !important;
-    height: 270px !important;
+    width: 150px !important;
+    height: 220px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   .card-item img {
-    width: 120px !important;
+    width:110px !important;
     margin: 0 auto;
-    margin-top: -60px;
+    margin-top: -80px;
   }
 
   .card-item span {
-    font-size: 11px;
+    font-size: 8px;
   }
 
   .card-item h2 {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .card-item p {
