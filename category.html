@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scarlett Whitening - Kategori</title>
-  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scarlett Whitening - Kategori</title>
+    <link rel="stylesheet" href="style-category.css" />
     <link
       rel="shortcut icon"
       href="assets/img/favicon.ico"
@@ -15,80 +15,478 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-</head>
-<body>
-  <header>
-    <section class="ads">
-      <div class="ads-navbar">
-        <ul class="ads-navbar-left">
-          <a href="/" class="fa-solid fa-mobile ads-navbar-left-item"></a>
-          <a href="/" class="ads-navbar-left-item">Download Scarlett App</a>
-        </ul>
-        <ul class="ads-navbar-right">
-          <a href="/" class="ads-navbar-right-item">Gabung Kemitraan</a>
-          <a href="/" class="ads-navbar-right-item">Mulai Belanja</a>
-          <a href="/" class="ads-navbar-right-item">Promo</a>
-          <a href="/" class="ads-navbar-right-item">Scarlett App</a>
-        </ul>
-      </div>
-    </section>
-
-    <section class="navbar">
-      <a href="/" class="nav-brand">
-        <img src="assets/img/logo.png" alt="" height="70px" />
-        <h4>Reveal Your Beauty</h4>
-      </a>
-      <div class="nav-search">
-        <input type="text" name="" id="" placeholder="Cari Scrub Coffee" />
-        <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
-      </div>
-      <div class="nav-right">
-        <div>
-          <a href="/product.html" class="nav-right-item">Produk</a>
-          <a href="/category.html" class="nav-right-item active">Kategori</a>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <section class="ads">
+        <div class="ads-navbar">
+          <ul class="ads-navbar-left">
+            <a href="/" class="fa-solid fa-mobile ads-navbar-left-item"></a>
+            <a href="/" class="ads-navbar-left-item">Download Scarlett App</a>
+          </ul>
+          <ul class="ads-navbar-right">
+            <a href="/" class="ads-navbar-right-item">Gabung Kemitraan</a>
+            <a href="/" class="ads-navbar-right-item">Mulai Belanja</a>
+            <a href="/" class="ads-navbar-right-item">Promo</a>
+            <a href="/" class="ads-navbar-right-item">Scarlett App</a>
+          </ul>
         </div>
-        <hr />
-        <div class="nav-right-icon">
-          <a href="/" class="fa-solid fa-cart-shopping right-item-icon"></a>
-          <a href="/" class="fa-solid fa-user right-item-icon"></a>
-        </div>
-      </div>
-    </section>
-    <section class="nav-bottom">
-      <div class="nav-bottom-list">
-        <a href="/" class="nav-bottom-item">Body Charming</a>
-        <a href="/" class="nav-bottom-item">Scrub Coffee</a>
-        <a href="/" class="nav-bottom-item">Brightly Serum</a>
-        <a href="/" class="nav-bottom-item">Shower Pome</a>
-      </div>
-      <div class="nav-address">
-        <span class="dikirim"
-          ><i class="fa-solid fa-location-pin"></i>Dikirim ke
-          <span class="alamat">Lumajang</span></span
-        >
-      </div>
-    </section>
-  </header>
+      </section>
 
-  <header class="nav-mobile">
-    <ul class="mobile-list">
-      <a href="/">
-        <i class="fa-solid fa-house"></i>
-        <span>HOME</span>
-      </a>
-      <a href="/">
-        <i class="fa-solid fa-bag-shopping"></i>
-        <span>PRODUK</span>
-      </a>
-      <a href="/">
-        <i class="fa-solid fa-list"></i>
-        <span>KATEGORI</span>
-      </a>
-      <a href="/">
-        <i class="fa-solid fa-address-card"></i>
-        <span>KONTAK</span>
-      </a>
-    </ul>
-  </header>
-</body>
+      <section class="navbar">
+        <a href="/" class="nav-brand">
+          <img src="assets/img/logo.png" alt="" height="70px" />
+          <h4>Reveal Your Beauty</h4>
+        </a>
+        <div class="nav-search">
+          <input type="text" name="" id="" placeholder="Cari Scrub Coffee" />
+          <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
+        </div>
+        <div class="nav-right">
+          <div>
+            <a href="/product.html" class="nav-right-item">Produk</a>
+            <a href="/category.html" class="nav-right-item active">Kategori</a>
+          </div>
+          <hr />
+          <div class="nav-right-icon">
+            <a href="/" class="fa-solid fa-cart-shopping right-item-icon"></a>
+            <a href="/" class="fa-solid fa-user right-item-icon"></a>
+          </div>
+        </div>
+      </section>
+      <section class="nav-bottom">
+        <div class="nav-bottom-list">
+          <a href="/" class="nav-bottom-item">Body Charming</a>
+          <a href="/" class="nav-bottom-item">Scrub Coffee</a>
+          <a href="/" class="nav-bottom-item">Brightly Serum</a>
+          <a href="/" class="nav-bottom-item">Shower Pome</a>
+        </div>
+        <div class="nav-address">
+          <span class="dikirim"
+            ><i class="fa-solid fa-location-pin"></i>Dikirim ke
+            <span class="alamat">Lumajang</span></span
+          >
+        </div>
+      </section>
+    </header>
+
+    <header class="nav-mobile">
+      <ul class="mobile-list">
+        <a href="/">
+          <i class="fa-solid fa-house"></i>
+          <span>HOME</span>
+        </a>
+        <a href="/">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span>PRODUK</span>
+        </a>
+        <a href="/">
+          <i class="fa-solid fa-list"></i>
+          <span>KATEGORI</span>
+        </a>
+        <a href="/">
+          <i class="fa-solid fa-address-card"></i>
+          <span>KONTAK</span>
+        </a>
+      </ul>
+    </header>
+
+    <main>
+      <div class="category">
+        <section class="left">
+          <h2 class="left-title"></h2>
+          <ul class="body-care">
+            Body Care
+            <li class="body-care-item" id="body-lotion">Body Lotion</li>
+            <li class="body-care-item" id="body-scrub">Body Scrub</li>
+            <li class="body-care-item" id="body-shower">Shower Scrub</li>
+          </ul>
+          <ul class="body-care">
+            Face Care
+            <li class="body-care-item" id="face-mask">Face Mask</li>
+            <li class="body-care-item" id="facial-cream">Facial Cream</li>
+            <li class="body-care-item" id="facial-essence-toner">Facial Essence Toner</li>
+            <li class="body-care-item" id="facial-serum">Facial Serum</li>
+            <li class="body-care-item" id="facial-wash">Facial Wash</li>
+          </ul>
+          <ul class="body-care">
+            Hair Care
+            <li class="body-care-item" id="shampoo">Shampoo & Conditioner</li>
+          </ul>
+        </section>
+      </div>
+
+
+      <section class="main" id="body-lotion-display">
+        <h2 id="category-title">BODY LOTION</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-lotion/lotion-charming.png"
+              alt=""
+            />
+            <span>Body Care, Body Lotion</span>
+            <h2 class="card-title">Brightening Shower Scrub - Cucumber</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-lotion/lotion-fantasia.png"
+              alt=""
+            />
+            <span>Body Care, Body Lotion</span>
+            <h2 class="card-title">Brightening Shower Scrub - Fantasia</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-lotion/lotion-freshy.png"
+              alt=""
+            />
+            <span>Body Care, Body Lotion</span>
+            <h2 class="card-title">Brightening Shower Scrub - Freshy</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-lotion/lotion-jolly.png"
+              alt=""
+            />
+            <span>Body Care, Body Lotion</span>
+            <h2 class="card-title">Brightening Shower Scrub - Jolly</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-lotion/lotion-romansa.png"
+              alt=""
+            />
+            <span>Body Care, Body Lotion</span>
+            <h2 class="card-title">Brightening Shower Scrub - Romansa</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+      <section class="main" id="body-scrub-display">
+        <h2 id="category-title">BODY SCRUB</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-scrub/scrub-coffee.png"
+              alt=""
+            />
+            <span>Body Care, Body Scrub</span>
+            <h2 class="card-title">Body Scrub - Coffee</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-scrub/scrub-pomegrante.png"
+              alt=""
+            />
+            <span>Body Care, Body Scrub</span>
+            <h2 class="card-title">Body Scrub - Pomagrante</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-scrub/scrub-romansa.png"
+              alt=""
+            />
+            <span>Body Care, Body Scrub</span>
+            <h2 class="card-title">Body Scrub - Pomagrante</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+      <section class="main" id="body-shower-display">
+        <h2 id="category-title">SHOWER SCRUB</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-shower/shower-brightening.png"
+              alt=""
+            />
+            <span>Body Care, Shower Scrub</span>
+            <h2 class="card-title">Shower Scrub - Brightening</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-shower/shower-charming.png"
+              alt=""
+            />
+            <span>Body Care, Shower Scrub</span>
+            <h2 class="card-title">Shower Scrub - Charming</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-shower/shower-coffee.png"
+              alt=""
+            />
+            <span>Body Care, Shower Scrub</span>
+            <h2 class="card-title">Shower Scrub - Coffee</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-shower/shower-cucumber.png"
+              alt=""
+            />
+            <span>Body Care, Shower Scrub</span>
+            <h2 class="card-title">Shower Scrub - Cucumber</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-shower/shower-jolly.png"
+              alt=""
+            />
+            <span>Body Care, Shower Scrub</span>
+            <h2 class="card-title">Shower Scrub - Jolly</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-shower/shower-mango.png"
+              alt=""
+            />
+            <span>Body Care, Shower Scrub</span>
+            <h2 class="card-title">Shower Scrub - Mango</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/body-care/body-shower/shower-pome.png"
+              alt=""
+            />
+            <span>Body Care, Shower Scrub</span>
+            <h2 class="card-title">Shower Scrub - Pome</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+
+
+      <section class="main" id="face-mask-display">
+        <h2 id="category-title">FACE MASK</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/face-mask/hydrating.png"
+              alt=""
+            />
+            <span>Face Care, Face Mask</span>
+            <h2 class="card-title">Face Mask Hydrating</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/face-mask/mugwort.png"
+              alt=""
+            />
+            <span>Face Care, Face Mask</span>
+            <h2 class="card-title">Face Mask Mugwort</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+      <section class="main" id="facial-cream-display">
+        <h2 id="category-title">FACIAL CREAM</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/acne/Acne-Cream-Day.png"
+              alt=""
+            />
+            <span>Face Care, Cream</span>
+            <h2 class="card-title">Acne Cream Day</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/acne/Acne-cream-Night.png"
+              alt=""
+            />
+            <span>Face Care, Cream</span>
+            <h2 class="card-title">Acne Cream Night</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/acne/Brightly-Cream-Day.png"
+              alt=""
+            />
+            <span>Face Care, Cream</span>
+            <h2 class="card-title">Brightly Cream Day</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/acne/Brightly-Cream-Night.png"
+              alt=""
+            />
+            <span>Face Care, Cream</span>
+            <h2 class="card-title">Brightly Cream Night</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+      <section class="main" id="facial-essence-toner-display">
+        <h2 id="category-title">FACIAL ESSENCE TONER</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/toner/Toner-Acne.png"
+              alt=""
+            />
+            <span>Face Care, Toner</span>
+            <h2 class="card-title">Acne Essence Toner</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/toner/Toner-Brightly-600x600.png"
+              alt=""
+            />
+            <span>Face Care, Toner</span>
+            <h2 class="card-title">Brightly Essence Toner</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+      <section class="main" id="facial-serum-display">
+        <h2 id="category-title">FACIAL SERUM</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/serum/Acne-Serum.png"
+              alt=""
+            />
+            <span>Face Care, Serum</span>
+            <h2 class="card-title">Acne Serum</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/serum/Brightly-Serum.png"
+              alt=""
+            />
+            <span>Face Care, Serum</span>
+            <h2 class="card-title">Brightly Serum</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/serum/Glowtening-Texture.png"
+              alt=""
+            />
+            <span>Face Care, Serum</span>
+            <h2 class="card-title">Glowtening Texture Serum</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/serum/NIACINAMIDE-WEBSITE.png"
+              alt=""
+            />
+            <span>Face Care, Serum</span>
+            <h2 class="card-title">Niacinamide 5% Beta Glucan Serum</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/serum/RETINOL-WEBSITE-1.png"
+              alt=""
+            />
+            <span>Face Care, Serum</span>
+            <h2 class="card-title">Skin Smoothing Retinol Serum</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+      <section class="main" id="facial-wash-display">
+        <h2 id="category-title">FACIAL WASH</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/wash/facewash1.png"
+              alt=""
+            />
+            <span>Face Care, Facial Wash</span>
+            <h2 class="card-title">Brightening Facial Wash - All Skin Type</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/face-care/wash/FACIAL-WASH-WEBSITE.png"
+              alt=""
+            />
+            <span>Face Care, Facial Wash</span>
+            <h2 class="card-title">Acne Facial Wash - Oily Skin Type</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+
+
+      <section class="main" id="shampoo-display">
+        <h2 id="category-title">SHAMPOO & CONDITIONER</h2>
+        <ul class="card-list">
+          <div class="card-item">
+            <img
+              src="assets/img/hair-care/shampoo-yordanian-2.png"
+              alt=""
+            />
+            <span>Hair Care, Shampoo & Conditioner</span>
+            <h2 class="card-title">Yordanian Sea Salt - Conditioner</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-item">
+            <img
+              src="assets/img/hair-care/shampoo-yordanian.png"
+              alt=""
+            />
+            <span>Hair Care, Shampoo & Conditioner</span>
+            <h2 class="card-title">Yordanian Sea Salt - Conditioner</h2>
+            <p>Rp. 75.000</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
