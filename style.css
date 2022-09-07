@@ -10,7 +10,7 @@
 :root {
   /* Text Color */
   --color-sec: #f0bbcf;
-  --color-third: #A870AF;
+  --color-third: #a870af;
   --text-black: rgba(0, 0, 0, 1);
   --text-gray: rgba(0, 0, 0, 0.7);
   --text-light: rgba(0, 0, 0, 0.5);
@@ -223,7 +223,7 @@ header {
 
 /* Main */
 .hero {
-  padding-top:180px;
+  padding-top: 180px;
   width: 1280px;
   margin: 0 auto;
   display: flex;
@@ -321,11 +321,11 @@ header {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 
 .best-item img {
@@ -348,7 +348,6 @@ header {
   font-size: 13px;
   color: var(--text-black);
 }
-
 
 .terlaris {
   width: 100%;
@@ -431,8 +430,6 @@ header {
   -o-border-radius: 6px;
 }
 
-
-
 footer {
   position: relative;
   bottom: 0;
@@ -441,15 +438,6 @@ footer {
   background-color: var(--bg-main);
   margin-top: 70px;
 }
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 768px) {
   header {
@@ -568,7 +556,6 @@ footer {
   .mobile-list a:hover {
     color: var(--text-black);
   }
-  
 }
 
 @media screen and (max-width: 1280px) {
@@ -668,12 +655,12 @@ footer {
     width: 110px;
     margin: 10px;
   }
-  
+
   .best-item div {
     display: flex;
     flex-direction: column;
   }
-  
+
   .best-title {
     color: var(--color-third);
     font-weight: 600;
@@ -707,7 +694,7 @@ footer {
   .terlaris-item-title {
     font-size: 16px;
   }
-  
+
   .terlaris-item p {
     font-size: 18px;
   }
@@ -725,6 +712,83 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 110px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    width: 350px;
+  }
+
+  .hero img {
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .hero h4 {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+
+  .hero h3 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+
+  .hero p {
+    margin-left: 6px;
+  }
+
+  .hero button {
+    font-size: 12px;
+    padding: 10px 20px;
+    transform: translateX(90%) !important;
+    -webkit-transform: translateX(90%) !important;
+    -moz-transform: translateX(90%) !important;
+    -ms-transform: translateX(90%) !important;
+    -o-transform: translateX(90%) !important;
+  }
+
+  .best-list {
+    width: 300px;
+  }
+
+  .best-item {
+    width: 290px;
+    margin: 0 auto;
+  }
+
+  .best-item img {
+    width: 80px;
+  }
+
+  .best-title {
+    margin-bottom: -10px;
+    font-size: 13px;
+  } 
+
+  .best-desc {
+    font-size: 10px;
+  } 
+
+  .terlaris-title-main {
+    font-size: 18px;
+  }
+
+  .terlaris-list {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .terlaris-item {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .terlaris-item img {
+    width: 250px;
+    margin: 0 auto;
   }
 }
 
