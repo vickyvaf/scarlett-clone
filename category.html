@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scarlett Whitening - Kategori</title>
     <link rel="stylesheet" href="style-category.css" />
+    <link rel="stylesheet" href="style.css">
     <link
       rel="shortcut icon"
       href="assets/img/favicon.ico"
@@ -15,7 +16,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -73,19 +73,19 @@
 
     <header class="nav-mobile">
       <ul class="mobile-list">
-        <a href="/">
+        <a href="/index.html">
           <i class="fa-solid fa-house"></i>
           <span>HOME</span>
         </a>
-        <a href="/">
+        <a href="/product.html">
           <i class="fa-solid fa-bag-shopping"></i>
           <span>PRODUK</span>
         </a>
-        <a href="/">
+        <a href="/category.html">
           <i class="fa-solid fa-list"></i>
           <span>KATEGORI</span>
         </a>
-        <a href="/">
+        <a href="/contact.html">
           <i class="fa-solid fa-address-card"></i>
           <span>KONTAK</span>
         </a>
@@ -491,5 +491,59 @@
       <i class="fa-solid fa-bars bars-icon" id="bars-icon"></i>
       <i class="fa-solid fa-x bars-icon-x" id="bars-icon-x"></i>
     </main>
+
+    <footer id="footer">
+      <div class="footer">
+        <section class="footer-item">
+          <h2>Tentang Kami</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            culpa ducimus qui ipsam inventore id consequatur nulla dignissimos
+            neque dolorem debitis officia ut, nam delectus enim officiis
+            voluptatibus necessitatibus rem.
+          </p>
+        </section>
+        <section class="footer-item">
+          <h2>Kontak Servis</h2>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <p>+62 123 4567 8910</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <p>support@scarlett.com</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-pin"></i>
+            <p style="padding-left: 4px">Indonesia</p>
+          </div>
+        </section>
+        <section
+          class="footer-item layanan"
+          style="display: flex; flex-direction: column; gap: 6px"
+        >
+          <h2>Layanan</h2>
+          <a href="/index.html">Home</a>
+          <a href="/product.html">Produk</a>
+          <a href="/category.html">Kategori</a>
+          <a href="/contact.html">Kontak</a>
+        </section>
+        <section class="footer-item">
+          <div class="footer-logo">
+            <img src="assets/img/logo.png" width="170px" />
+            <div>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+          </div>
+        </section>
+      </div>
+      <span class="copyright">Copyright © <span id="year"></span> Scarlett Whitening cloned by
+        VAF</span>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="year.js"></script>
   </body>
 </html>
