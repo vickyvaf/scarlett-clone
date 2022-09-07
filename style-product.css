@@ -428,7 +428,7 @@ footer {
   }
 
   .card-list {
-    width: 500px !important;
+    width: 500px;
     flex-wrap: wrap;
   }
 
@@ -457,7 +457,7 @@ footer {
   }
 
   .card-list {
-    width: 420px !important;
+    width: 390px !important;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
