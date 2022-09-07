@@ -426,25 +426,6 @@ footer {
   .mobile-list a:hover {
     color: var(--text-black);
   }
-
-  .card-list {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-
-  .card-item {
-    width: 200px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .card-item img {
-    width: 130px;
-    margin: 0 auto;
-    margin-top: -100px;
-  }
 }
 
 @media screen and (max-width: 480px) {
