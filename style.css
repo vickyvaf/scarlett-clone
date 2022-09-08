@@ -674,8 +674,8 @@ footer {
 
 .modal-card {
   margin: 0 auto;
-  width: 800px;
-  height: 500px;
+  width: 700px;
+  height: 400px;
   position: relative;
   background-color: var(--bg-main);
   border: 5px solid var(--color-sec);
@@ -685,11 +685,11 @@ footer {
 
 .modal-card img {
   width: 400px;
-  transform: translateY(45%);
-  -webkit-transform: translateY(45%);
-  -moz-transform: translateY(45%);
-  -ms-transform: translateY(45%);
-  -o-transform: translateY(45%);
+  transform: translateY(18%);
+  -webkit-transform: translateY(18%);
+  -moz-transform: translateY(18%);
+  -ms-transform: translateY(18%);
+  -o-transform: translateY(18%);
 }
 
 .modal-card i {
@@ -723,10 +723,10 @@ footer {
 }
 
 .modal-title h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   position: absolute;
-  top: 20px;
+  top: -40px;
   background-color: crimson;
   color: white;
   padding: 20px 80px;
@@ -741,14 +741,15 @@ footer {
 .modal-hero {
   position: absolute;
   right: 20px;
-  bottom: 170px !important;
-  width: 350px !important;
-  height: 350px !important;
+  bottom: 65px !important;
+  width: 330px !important;
+  height: 330px !important;
   border-radius: 999px;
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   -ms-border-radius: 999px;
   -o-border-radius: 999px;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1071,26 +1072,33 @@ footer {
   }
 
   .modal-card {
-    width: 600px;
-    height: 370px;
-    margin: 0 20px;
+    width: 550px;
+    height: 300px;
+    margin: 20px;
+  }
+
+  .modal-card i {
+    right: -18px;
+    top: -18px;
+    font-size: 18px;
+    padding: 8px 10px;
   }
 
   .modal-card img {
-    width: 300px;
-    transform: translateY(45%);
-    -webkit-transform: translateY(45%);
-    -moz-transform: translateY(45%);
-    -ms-transform: translateY(45%);
-    -o-transform: translateY(45%);
+    width: 280px;
+    transform: translateY(25%);
+    -webkit-transform: translateY(25%);
+    -moz-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    -o-transform: translateY(25%);
   }
 
   .modal-hero {
     position: absolute;
     right: 10px;
-    bottom: 130px !important;
-    width: 280px !important;
-    height: 280px !important;
+    bottom: 60px !important;
+    width: 240px !important;
+    height: 240px !important;
     border-radius: 999px;
     -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
@@ -1102,7 +1110,7 @@ footer {
   .modal-title h2 {
     font-size: 20px;
     padding: 10px 40px;
-    top: 10px;
+    top: -25px;
   }
 }
 
