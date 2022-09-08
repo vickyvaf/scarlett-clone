@@ -5,7 +5,7 @@ footer.style.position = "absolute";
 footer.style.bottom = "-900px";
 
 function wa() {
-  const message = "Halo Admin, saya mau beli";
+  const message = "Halo Admin, saya mau tanya nih...";
   open(`https://wa.me/+6282340182744?text=${message}`, "_blank");
 }
 
@@ -32,8 +32,6 @@ function buy(product_name, product_price) {
 function contact(contact_name) {
   open(contact_name, "_blank");
 }
-
-
 
 //BODY CARE
 const bodyLotion = document.getElementById("body-lotion");

@@ -1,5 +1,4 @@
 //SHOW MORE
-
 const showMore1 = document.getElementById("show-more-1");
 const showMore12 = document.getElementById("show-more-2");
 
@@ -40,6 +39,3 @@ function showMore2() {
   showMore1.style.display = "none";
   showMore12.style.display = "none";
 }
-
-
-
