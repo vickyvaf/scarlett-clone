@@ -12,17 +12,10 @@
 | Lain-lain | https://www.google.com |
 #
 
-> HTML, CSS, & JS
-#
-> Font Awesome
+> HTML, CSS, JS & Font Awesome
 
 #
-#
-
 
 > Hasil Coding bersama DeaCourse:
 https://simple-ecommerce.vickyvaf.repl.co/
-#
-> HTML, CSS, & JS
-#
-> Font Awesome & AnimateCSS
+> HTML, CSS, JS, Font Awesome, & AnimateCSS
