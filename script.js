@@ -33,6 +33,8 @@ function contact(contact_name) {
   open(contact_name, "_blank");
 }
 
+
+
 //BODY CARE
 const bodyLotion = document.getElementById("body-lotion");
 const bodyScrub = document.getElementById("body-scrub");

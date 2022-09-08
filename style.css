@@ -649,6 +649,10 @@ footer {
   padding: 0 10px;
 }
 
+.footer-logo div i {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1300px) {
   .footer {
     width: 800px;
@@ -1039,6 +1043,7 @@ footer {
 
 @media screen and (max-width: 480px) {
   .hero {
+    padding-top: 100px;
     width: 350px;
   }
 

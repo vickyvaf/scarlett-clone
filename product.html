@@ -161,7 +161,7 @@
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Toner Brightly', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p1">
             <img
               src="assets/img/body-care/body-shower/shower-pome.png"
               alt=""
@@ -171,28 +171,28 @@
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Pome', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p2">
             <img src="assets/img/hair-care/shampoo-yordanian-2.png" alt="" />
             <span>Hair Care, Shampoo</span>
             <h2 class="card-title">Yordnanian Sea Salt - Conditioner</h2>
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Yordnanian Sea Salt - Conditioner', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p3">
             <img src="assets/img/face-care/wash/facewash1.png" alt="" />
             <span>Face Care, Facial Wash</span>
             <h2 class="card-title">Brightening Facial Wash</h2>
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Facial Wash', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p4">
             <img src="assets/img/face-care/face-mask/mugwort.png" alt="" />
             <span>Face Care, Face Mask</span>
             <h2 class="card-title">Herbalism Mugwort Mask</h2>
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Herbalism Mugwort Mask', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p5">
             <img
               src="assets/img/face-care/serum/Glowtening-Texture.png"
               alt=""
@@ -202,7 +202,7 @@
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Glowtening Serum', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p6">
             <img
               src="assets/img/body-care/body-shower/shower-coffee.png"
               alt=""
@@ -212,7 +212,7 @@
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Coffee', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p7">
             <img
               src="assets/img/face-care/serum/RETINOL-WEBSITE-1.png"
               alt=""
@@ -222,7 +222,7 @@
             <p>Rp. 75.000</p>
             <i class="fa-solid fa-cart-shopping" onclick="buy('Skin Smoothing Retinol', 'Rp. 75.000')"></i>
           </div>
-          <div class="card-item">
+          <div class="card-item card-item-p" id="p8">
             <img src="assets/img/face-care/face-mask/hydrating.png" alt="" />
             <span>Face Care, Face Mask</span>
             <h2 class="card-title">Hydrating Face Mask</h2>
@@ -230,6 +230,9 @@
             <i class="fa-solid fa-cart-shopping" onclick="buy('Hydrating Face Mask', 'Rp. 75.000')"></i>
           </div>
         </ul>
+
+        <button class="showmore" onclick="showMore()" id="show-more-1">Show More</button>
+        <button class="showmore2" onclick="showMore2()" id="show-more-2">Show More</button>
       </section>
 
       <div class="x"></div>
@@ -278,9 +281,9 @@
           <div class="footer-logo">
             <img src="assets/img/logo.png" width="170px" />
             <div>
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-tiktok"></i>
+              <i class="fa-brands fa-youtube" onclick="contact('https://www.youtube.com/channel/UCBVEjKmNUzcUAMQJH-4B_cQ')"></i>
+              <i class="fa-brands fa-instagram" onclick="contact('https://www.instagram.com/scarlett_whitening/?hl=id')"></i>
+              <i class="fa-brands fa-tiktok" onclick="contact('https://www.tiktok.com/@scarlett_whitening')"></i>
             </div>
           </div>
         </section>
@@ -291,6 +294,7 @@
       >
     </footer>
 
+    <script src="script-product.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
