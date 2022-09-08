@@ -25,7 +25,7 @@
             <a class="ads-navbar-left-item">Download Scarlett App</a>
           </ul>
           <ul class="ads-navbar-right">
-            <a href="/contact.html" class="ads-navbar-right-item">Kontak Kami</a>
+            <a href="/contact.html" class="ads-navbar-right-item">Kontak</a>
             <a class="ads-navbar-right-item">Scarlett Care</a>
           </ul>
         </div>
@@ -93,6 +93,19 @@
     </header>
 
     <main>
+      <div id="modal-blur">
+        <section class="modal">
+          <div class="modal-card" id="modal-card">
+            <i class="fa-solid fa-x" id="close"></i>
+            <img src="assets/img/modal.png" alt="" />
+            <img src="assets/img/hero.png" class="modal-hero">
+            <div class="modal-title">
+              <h2>SPESIAL 75K</h2>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <section class="hero">
         <div class="hero-left">
           <h4>SCARLETT</h4>
@@ -104,7 +117,9 @@
             Glutathione, kandungan antioksidan yang diklaim dapat mencerahkan
             kulit.
           </p>
-          <button onclick="trailer()">TRAILER <i class="fa-solid fa-play"></i></button>
+          <button onclick="trailer()">
+            TRAILER <i class="fa-solid fa-play"></i>
+          </button>
         </div>
         <div class="hero-right">
           <img src="assets/img/hero.png" alt="" width="500px" />
@@ -238,9 +253,18 @@
           <div class="footer-logo">
             <img src="assets/img/logo.png" width="170px" />
             <div>
-              <i class="fa-brands fa-youtube" onclick="contact('https://www.youtube.com/channel/UCBVEjKmNUzcUAMQJH-4B_cQ')"></i>
-              <i class="fa-brands fa-instagram" onclick="contact('https://www.instagram.com/scarlett_whitening/?hl=id')"></i>
-              <i class="fa-brands fa-tiktok" onclick="contact('https://www.tiktok.com/@scarlett_whitening')"></i>
+              <i
+                class="fa-brands fa-youtube"
+                onclick="contact('https://www.youtube.com/channel/UCBVEjKmNUzcUAMQJH-4B_cQ')"
+              ></i>
+              <i
+                class="fa-brands fa-instagram"
+                onclick="contact('https://www.instagram.com/scarlett_whitening/?hl=id')"
+              ></i>
+              <i
+                class="fa-brands fa-tiktok"
+                onclick="contact('https://www.tiktok.com/@scarlett_whitening')"
+              ></i>
             </div>
           </div>
         </section>
@@ -252,5 +276,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="script-modal.js"></script>
   </body>
 </html>
