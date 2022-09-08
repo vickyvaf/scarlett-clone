@@ -10,7 +10,7 @@
 :root {
   /* Text Color */
   --color-sec: #f0bbcf;
-  --color-third: #A870AF;
+  --color-third: #a870af;
   --text-black: rgba(0, 0, 0, 1);
   --text-gray: rgba(0, 0, 0, 0.7);
   --text-light: rgba(0, 0, 0, 0.5);
@@ -261,27 +261,51 @@ header {
 .card-item {
   position: relative;
   background-color: white;
-  border-radius:10px;
+  overflow: hidden;
+  border-radius: 10px;
   width: 300px;
   height: 440px;
   padding: 20px;
   margin-top: 12px;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  -ms-border-radius:10px;
-  -o-border-radius:10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-item-p {
+  animation: card-item-p 1s;
+  -webkit-animation: card-item-p 1s;
+  transform-origin: 50% 0;
+}
+
+@keyframes card-item-p {
+  from {
+    transform: scale(0%);
+    -webkit-transform: scale(0%);
+    -moz-transform: scale(0%);
+    -ms-transform: scale(0%);
+    -o-transform: scale(0%);
+  }
+  to {
+    transform: scale(100%);
+    -webkit-transform: scale(100%);
+    -moz-transform: scale(100%);
+    -ms-transform: scale(100%);
+    -o-transform: scale(100%);
+  }
 }
 
 .card-item img {
   width: 280px;
   margin: 0 auto;
   margin-top: -40px;
-  transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 
 .card-item img:hover {
@@ -353,11 +377,11 @@ footer {
   font-family: var(--font-main);
   font-weight: 500;
   cursor: pointer;
-  transition: all .2s;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  -o-transition: all .2s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
   margin-top: 50px;
 }
 
@@ -382,11 +406,11 @@ footer {
   font-family: var(--font-main);
   font-weight: 500;
   cursor: pointer;
-  transition: all .2s;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  -o-transition: all .2s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
   margin-top: 50px;
 }
 
@@ -394,9 +418,6 @@ footer {
   background-color: var(--bg-main);
   color: var(--text-black);
 }
-
-
-
 
 @media screen and (max-width: 768px) {
   header {
@@ -489,7 +510,8 @@ footer {
     justify-content: center;
   }
 
-  .card-item, .card-item-p {
+  .card-item,
+  .card-item-p {
     width: 160px !important;
     height: 210px !important;
     display: flex;
@@ -498,31 +520,35 @@ footer {
   }
 
   .card-item img {
-    width:110px !important;
+    width: 110px !important;
     margin: 0 auto;
     margin-top: -80px;
   }
 
   .card-item-p img {
-    width:110px !important;
+    width: 110px !important;
     margin: 0 auto;
     margin-top: -20px !important;
   }
 
-  .card-item span, .card-item-p span{
+  .card-item span,
+  .card-item-p span {
     font-size: 8px;
   }
 
-  .card-item h2, .card-item-p{
+  .card-item h2,
+  .card-item-p {
     font-size: 10px;
   }
 
-  .card-item p, .card-item-p p{
+  .card-item p,
+  .card-item-p p {
     padding: 5px !important;
     font-size: 10px !important;
   }
 
-  .card-item i, .card-item-p i{
+  .card-item i,
+  .card-item-p i {
     padding: 5px !important;
     font-size: 10px !important;
   }
@@ -545,7 +571,8 @@ footer {
     justify-content: center;
   }
 
-  .card-item, .card-item-p {
+  .card-item,
+  .card-item-p {
     width: 150px !important;
     height: 220px !important;
     display: flex;
@@ -554,36 +581,41 @@ footer {
   }
 
   .card-item img {
-    width:110px !important;
+    width: 110px !important;
     margin: 0 auto;
     margin-top: -80px;
   }
 
   .card-item-p img {
-    width:110px !important;
+    width: 110px !important;
     margin: 0 auto;
     margin-top: -20px !important;
   }
 
-  .card-item span, .card-item-p span{
+  .card-item span,
+  .card-item-p span {
     font-size: 8px;
   }
 
-  .card-item h2, .card-item-p{
+  .card-item h2,
+  .card-item-p {
     font-size: 10px;
   }
 
-  .card-item p, .card-item-p p{
+  .card-item p,
+  .card-item-p p {
     padding: 5px !important;
     font-size: 10px !important;
   }
 
-  .card-item i, .card-item-p i{
+  .card-item i,
+  .card-item-p i {
     padding: 5px !important;
     font-size: 10px !important;
   }
 
-  .showmore, .showmore2 {
+  .showmore,
+  .showmore2 {
     padding: 5px 10px !important;
     font-size: 10px !important;
     margin-top: 35px;
