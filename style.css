@@ -49,6 +49,7 @@ header {
   list-style-type: none;
   align-items: center;
   gap: 3px;
+  cursor: pointer;
 }
 
 .ads-navbar-left-item {
@@ -60,6 +61,7 @@ header {
   display: flex;
   gap: 15px;
   list-style-type: none;
+  cursor: pointer;
 }
 
 .ads-navbar-right-item {
