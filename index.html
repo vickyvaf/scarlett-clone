@@ -28,7 +28,7 @@
             <a href="/" class="ads-navbar-right-item">Gabung Kemitraan</a>
             <a href="/" class="ads-navbar-right-item">Mulai Belanja</a>
             <a href="/" class="ads-navbar-right-item">Promo</a>
-            <a href="/" class="ads-navbar-right-item">Scarlett App</a>
+            <a href="/" class="ads-navbar-right-item">Scarlett Care</a>
           </ul>
         </div>
       </section>
@@ -49,8 +49,11 @@
           </div>
           <hr />
           <div class="nav-right-icon">
-            <a href="/" class="fa-solid fa-cart-shopping right-item-icon"></a>
-            <a href="/" class="fa-solid fa-user right-item-icon"></a>
+            <a
+              onclick="cart()"
+              class="fa-solid fa-cart-shopping right-item-icon"
+            ></a>
+            <a onclick="user()" class="fa-solid fa-user right-item-icon"></a>
           </div>
         </div>
       </section>
@@ -72,7 +75,7 @@
 
     <header class="nav-mobile">
       <ul class="mobile-list">
-        <a href="/index.html">
+        <a href="/index.html" class="active">
           <i class="fa-solid fa-house"></i>
           <span>HOME</span>
         </a>
@@ -161,25 +164,39 @@
               Brightening Shower Scrub - Cucumber
             </h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i
+              class="fa-solid fa-cart-shopping"
+              onclick="buy('Brightening Shower Scrub - Cucumber')"
+            ></i>
           </div>
           <div class="terlaris-item">
             <img src="assets/img/face-care/serum/Brightly-Serum.png" alt="" />
             <span>Face Care, Facial Serum</span>
-            <h2 class="terlaris-item-title">Serum- Brightly Ever After</h2>
+            <h2 class="terlaris-item-title">Serum - Brightly Ever After</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i
+              class="fa-solid fa-cart-shopping"
+              onclick="buy('Serum- Brightly Ever After')"
+            ></i>
           </div>
           <div class="terlaris-item">
             <img src="assets/img/face-care/wash/facewash1.png" alt="" />
             <span>Face Care, Facial Wash</span>
             <h2 class="terlaris-item-title">
-              Brighteing Facial Wash - All Skin Type
+              Brightening Facial Wash - All Skin Type
             </h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i
+              class="fa-solid fa-cart-shopping"
+              onclick="buy('Brighteing Facial Wash - All Skin Type')"
+            ></i>
           </div>
         </ul>
+      </section>
+
+      <div class="x"></div>
+      <section class="wa" onclick="wa()">
+        <i class="fa-brands fa-whatsapp"></i>
       </section>
     </main>
 
@@ -230,10 +247,12 @@
           </div>
         </section>
       </div>
-      <span class="copyright">Copyright © <span id="year"></span> Scarlett Whitening cloned by
-        VAF</span>
+      <span class="copyright"
+        >Copyright © <span id="year"></span> Scarlett Whitening cloned by
+        VAF</span
+      >
     </footer>
 
-    <script src="year.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

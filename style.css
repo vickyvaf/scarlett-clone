@@ -169,6 +169,7 @@ header {
 
 .nav-right-icon {
   display: flex;
+  cursor: pointer;
 }
 
 .right-item-icon {
@@ -428,6 +429,7 @@ header {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  cursor: pointer;
 }
 
 footer {
@@ -510,9 +512,77 @@ footer {
   position: absolute;
   bottom: 80px;
   font-size: 12px;
-  z-index: 9999999;
+  z-index: 2;
 }
 
+.wa {
+  position: fixed;
+  z-index: 8;
+  right: 50px;
+  bottom: 50px;
+  color: white;
+  z-index: 8;
+}
+
+.wa i {
+  font-size: 30px;
+  color: white;
+  background-color: #25d366;
+  padding: 10px 12px;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+
+.wa i:hover {
+  cursor: pointer;
+  background-color: #25d311;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+
+.x {
+  width: 80px;
+  height: 80px;
+  background-color: #25d366;
+  position: fixed;
+  z-index: 10;
+  right: 35px;
+  bottom: 35px;
+  color: white;
+  z-index: 4;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+  animation: fade 1.5s infinite;
+  -webkit-animation: fade 1.3s infinite;
+}
+
+@keyframes fade {
+  from {
+    transform: scale(65%);
+    -webkit-transform: scale(65%);
+    -moz-transform: scale(65%);
+    -ms-transform: scale(65%);
+    -o-transform: scale(65%);
+    opacity: 0.1;
+  }
+  to {
+    transform: scale(88%);
+    -webkit-transform: scale(88%);
+    -moz-transform: scale(88%);
+    -ms-transform: scale(88%);
+    -o-transform: scale(88%);
+    opacity: 0.2;
+  }
+}
 
 @media screen and (max-width: 1300px) {
   .footer {
@@ -707,6 +777,16 @@ footer {
 
   .copyright {
     bottom: 80px;
+  }
+
+  .wa {
+    bottom: 70px;
+    right: 20px;
+  }
+
+  .x {
+    bottom: 55px;
+    right: 5px;
   }
 }
 
@@ -937,6 +1017,24 @@ footer {
 
   .footer-item {
     width: 150px !important;
+    margin-top: 30px;
+  }
+
+  .x {
+    width: 65px;
+    height: 65px;
+    bottom: 64px;
+    right: 19px;
+  }
+
+  .wa {
+    right: 31px;
+    bottom: 75px;
+  }
+
+  .wa i {
+    padding: 11px 12px;
+    font-size: 20px;
   }
 }
 

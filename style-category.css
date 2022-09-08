@@ -255,7 +255,7 @@ header {
 
 .left {
   width: 250px;
-  padding-bottom: 900px;
+  padding-bottom: 1100px;
   padding-top: 190px;
   background-color: var(--bg-main);
   position: absolute;
@@ -360,6 +360,7 @@ header {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  cursor: pointer;
 }
 
 .card-item img {
@@ -373,7 +374,6 @@ header {
 }
 
 .card-item img:hover {
-  cursor: pointer;
   transform: translateY(-20px);
   -webkit-transform: translateY(-20px);
   -moz-transform: translateY(-20px);

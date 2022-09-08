@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scarlett Whitening - Produk</title>
     <link rel="stylesheet" href="style-product.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="assets/img/favicon.ico"
@@ -29,7 +29,7 @@
             <a href="/" class="ads-navbar-right-item">Gabung Kemitraan</a>
             <a href="/" class="ads-navbar-right-item">Mulai Belanja</a>
             <a href="/" class="ads-navbar-right-item">Promo</a>
-            <a href="/" class="ads-navbar-right-item">Scarlett App</a>
+            <a href="/" class="ads-navbar-right-item">Scarlett Care</a>
           </ul>
         </div>
       </section>
@@ -50,8 +50,8 @@
           </div>
           <hr />
           <div class="nav-right-icon">
-            <a href="/" class="fa-solid fa-cart-shopping right-item-icon"></a>
-            <a href="/" class="fa-solid fa-user right-item-icon"></a>
+            <a onclick="cart()" class="fa-solid fa-cart-shopping right-item-icon"></a>
+            <a onclick="user()" class="fa-solid fa-user right-item-icon"></a>
           </div>
         </div>
       </section>
@@ -77,7 +77,7 @@
           <i class="fa-solid fa-house"></i>
           <span>HOME</span>
         </a>
-        <a href="/product.html">
+        <a href="/product.html" class="active">
           <i class="fa-solid fa-bag-shopping"></i>
           <span>PRODUK</span>
         </a>
@@ -104,115 +104,137 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Brightening Shower Scrub - Cucumber</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Cucumber', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/face-care/serum/Brightly-Serum.png" alt="" />
             <span>Face Care, Facial Serum</span>
             <h2 class="card-title">Serum - Brightly Ever After</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Serum - Brightly Ever After', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/face-care/wash/facewash1.png" alt="" />
             <span>Face Care, Facial Wash</span>
             <h2 class="card-title">Brighteing Facial Wash - All Skin Type</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brighteing Facial Wash - All Skin Type', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/hair-care/shampoo-yordanian.png" alt="" />
             <span>Hair Care, Shampoo</span>
             <h2 class="card-title">Yordanian Sea Salt - Shampoo</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Yordanian Sea Salt - Shampoo', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/face-care/acne/Acne-Cream-Day.png" alt="" />
             <span>Face Care, Acne Cream</span>
             <h2 class="card-title">Acne Cream Day</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Acne Cream Day', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/face-care/acne/Acne-cream-Night.png" alt="" />
             <span>Face Care, Acne Cream</span>
             <h2 class="card-title">Acne Cream Night</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Acne Cream Night', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img src="assets/img/face-care/acne/Brightly-Cream-Day.png" alt="" />
+            <img
+              src="assets/img/face-care/acne/Brightly-Cream-Day.png"
+              alt=""
+            />
             <span>Face Care, Acne Cream</span>
             <h2 class="card-title">Brightly Cream Day</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightly Cream Da', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img src="assets/img/face-care/toner/Toner-Brightly-600x600.png" alt="" />
+            <img
+              src="assets/img/face-care/toner/Toner-Brightly-600x600.png"
+              alt=""
+            />
             <span>Face Care, Toner</span>
             <h2 class="card-title">Toner Brightly</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Toner Brightly', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img src="assets/img/body-care/body-shower/shower-pome.png" alt="" />
+            <img
+              src="assets/img/body-care/body-shower/shower-pome.png"
+              alt=""
+            />
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Pome</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Pome', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/hair-care/shampoo-yordanian-2.png" alt="" />
             <span>Hair Care, Shampoo</span>
             <h2 class="card-title">Yordnanian Sea Salt - Conditioner</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Yordnanian Sea Salt - Conditioner', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/face-care/wash/facewash1.png" alt="" />
             <span>Face Care, Facial Wash</span>
             <h2 class="card-title">Brightening Facial Wash</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Facial Wash', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/face-care/face-mask/mugwort.png" alt="" />
             <span>Face Care, Face Mask</span>
             <h2 class="card-title">Herbalism Mugwort Mask</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Herbalism Mugwort Mask', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img src="assets/img/face-care/serum/Glowtening-Texture.png" alt="" />
+            <img
+              src="assets/img/face-care/serum/Glowtening-Texture.png"
+              alt=""
+            />
             <span>Face Care, Serum</span>
             <h2 class="card-title">Glowtening Serum</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Glowtening Serum', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img src="assets/img/body-care/body-shower/shower-coffee.png" alt="" />
+            <img
+              src="assets/img/body-care/body-shower/shower-coffee.png"
+              alt=""
+            />
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Brightening Shower Scrub - Coffee</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Coffee', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img src="assets/img/face-care/serum/RETINOL-WEBSITE-1.png" alt="" />
+            <img
+              src="assets/img/face-care/serum/RETINOL-WEBSITE-1.png"
+              alt=""
+            />
             <span>Face Care, Serum</span>
             <h2 class="card-title">Skin Smoothing Retinol</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Skin Smoothing Retinol', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img src="assets/img/face-care/face-mask/hydrating.png" alt="" />
             <span>Face Care, Face Mask</span>
             <h2 class="card-title">Hydrating Face Mask</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Hydrating Face Mask', 'Rp. 75.000')"></i>
           </div>
-          
         </ul>
+      </section>
+
+      <div class="x"></div>
+      <section class="wa" onclick="wa()">
+        <i class="fa-brands fa-whatsapp"></i>
       </section>
     </main>
 
@@ -263,10 +285,12 @@
           </div>
         </section>
       </div>
-      <span class="copyright">Copyright © <span id="year"></span> Scarlett Whitening cloned by
-        VAF</span>
+      <span class="copyright"
+        >Copyright © <span id="year"></span> Scarlett Whitening cloned by
+        VAF</span
+      >
     </footer>
 
-    <script src="year.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

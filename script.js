@@ -1,3 +1,27 @@
+document.getElementById("year").innerHTML = new Date().getFullYear(year);
+
+const footer = document.getElementById("footer");
+footer.style.position = "absolute";
+footer.style.bottom = "-900px";
+
+function wa() {
+  const message = "Halo Admin, saya mau beli";
+  open(`https://wa.me/+6282340182744?text=${message}`, "_blank");
+}
+
+function cart() {
+  alert('Mohon maaf 🙏, fitur keranjang masih dalam tahap pengembangan. Untuk pertanyaan & pembelian via WhatsApp ya kak 😁')
+}
+
+function user() {
+  alert('Mohon maaf 🙏, fitur pengguna masih dalam tahap pengembangan. Untuk pertanyaan & pembelian via WhatsApp ya kak 😁')
+}
+
+function buy(product_name, product_price) {
+  const message = "Halo Admin, saya mau beli";
+  open(`https://wa.me/+6282340182744?text=${message} ${product_name} - ${product_price}`, "_blank");
+}
+
 //BODY CARE
 const bodyLotion = document.getElementById("body-lotion");
 const bodyScrub = document.getElementById("body-scrub");
@@ -64,8 +88,6 @@ bodyScrub.addEventListener("click", function () {
   facialWashDisplay.style.display = "none";
   //
   shampooDisplay.style.display = "none";
-
-  
 });
 
 bodyShower.addEventListener("click", function () {
@@ -167,22 +189,21 @@ shampoo.addEventListener("click", function () {
   shampooDisplay.style.display = "flex";
 });
 
-
 //SIDE BAR
-const barsIcon = document.getElementById('bars-icon');
-const barsIconX = document.getElementById('bars-icon-x');
-const category = document.getElementById('category');
+const barsIcon = document.getElementById("bars-icon");
+const barsIconX = document.getElementById("bars-icon-x");
+const category = document.getElementById("category");
 
-barsIconX.style.display = 'none'
+barsIconX.style.display = "none";
 
-barsIcon.addEventListener('click', function() {
+barsIcon.addEventListener("click", function () {
   category.style.transform = "translateX(0)";
   barsIcon.style.transform = "translateX(-9999px)";
-  barsIconX.style.display = 'flex';
-})
+  barsIconX.style.display = "flex";
+});
 
-barsIconX.addEventListener('click', function() {
+barsIconX.addEventListener("click", function () {
   category.style.transform = "translateX(-300px)";
   barsIcon.style.transform = "translateX(0)";
-  barsIconX.style.display = 'none';
-})
+  barsIconX.style.display = "none";
+});

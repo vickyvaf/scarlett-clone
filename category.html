@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scarlett Whitening - Kategori</title>
     <link rel="stylesheet" href="style-category.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="assets/img/favicon.ico"
@@ -29,7 +29,7 @@
             <a href="/" class="ads-navbar-right-item">Gabung Kemitraan</a>
             <a href="/" class="ads-navbar-right-item">Mulai Belanja</a>
             <a href="/" class="ads-navbar-right-item">Promo</a>
-            <a href="/" class="ads-navbar-right-item">Scarlett App</a>
+            <a href="/" class="ads-navbar-right-item">Scarlett Care</a>
           </ul>
         </div>
       </section>
@@ -50,8 +50,8 @@
           </div>
           <hr />
           <div class="nav-right-icon">
-            <a href="/" class="fa-solid fa-cart-shopping right-item-icon"></a>
-            <a href="/" class="fa-solid fa-user right-item-icon"></a>
+            <a onclick="cart()" class="fa-solid fa-cart-shopping right-item-icon"></a>
+            <a onclick="user()" class="fa-solid fa-user right-item-icon"></a>
           </div>
         </div>
       </section>
@@ -81,7 +81,7 @@
           <i class="fa-solid fa-bag-shopping"></i>
           <span>PRODUK</span>
         </a>
-        <a href="/category.html">
+        <a href="/category.html" class="active">
           <i class="fa-solid fa-list"></i>
           <span>KATEGORI</span>
         </a>
@@ -106,7 +106,9 @@
             Face Care
             <li class="body-care-item" id="face-mask">Face Mask</li>
             <li class="body-care-item" id="facial-cream">Facial Cream</li>
-            <li class="body-care-item" id="facial-essence-toner">Facial Essence Toner</li>
+            <li class="body-care-item" id="facial-essence-toner">
+              Facial Essence Toner
+            </li>
             <li class="body-care-item" id="facial-serum">Facial Serum</li>
             <li class="body-care-item" id="facial-wash">Facial Wash</li>
           </ul>
@@ -116,7 +118,6 @@
           </ul>
         </section>
       </div>
-
 
       <section class="main" id="body-lotion-display">
         <h2 id="category-title">BODY LOTION</h2>
@@ -129,7 +130,7 @@
             <span>Body Care, Body Lotion</span>
             <h2 class="card-title">Brightening Shower Scrub - Cucumber</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Cucumber', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -139,7 +140,7 @@
             <span>Body Care, Body Lotion</span>
             <h2 class="card-title">Brightening Shower Scrub - Fantasia</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Fantasia', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -149,7 +150,7 @@
             <span>Body Care, Body Lotion</span>
             <h2 class="card-title">Brightening Shower Scrub - Freshy</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Freshy', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -159,7 +160,7 @@
             <span>Body Care, Body Lotion</span>
             <h2 class="card-title">Brightening Shower Scrub - Jolly</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Jolly', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -169,7 +170,7 @@
             <span>Body Care, Body Lotion</span>
             <h2 class="card-title">Brightening Shower Scrub - Romansa</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Shower Scrub - Romansa', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
@@ -184,7 +185,7 @@
             <span>Body Care, Body Scrub</span>
             <h2 class="card-title">Body Scrub - Coffee</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Body Scrub - Coffee', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -194,7 +195,7 @@
             <span>Body Care, Body Scrub</span>
             <h2 class="card-title">Body Scrub - Pomagrante</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping"  onclick="buy('Body Scrub - Pomagrante', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -204,7 +205,7 @@
             <span>Body Care, Body Scrub</span>
             <h2 class="card-title">Body Scrub - Pomagrante</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Body Scrub - Pomagrante', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
@@ -219,7 +220,7 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Scrub - Brightening</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Scrub - Brightening', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -229,7 +230,7 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Scrub - Charming</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Scrub - Charming', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -239,7 +240,7 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Scrub - Coffee</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Scrub - Coffee', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -249,7 +250,7 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Scrub - Cucumber</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Scrub - Cucumber', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -259,7 +260,7 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Scrub - Jolly</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Scrub - Jolly', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -269,7 +270,7 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Scrub - Mango</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Scrub - Mango', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -279,34 +280,27 @@
             <span>Body Care, Shower Scrub</span>
             <h2 class="card-title">Shower Scrub - Pome</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Shower Scrub - Pome', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
-
 
       <section class="main" id="face-mask-display">
         <h2 id="category-title">FACE MASK</h2>
         <ul class="card-list">
           <div class="card-item">
-            <img
-              src="assets/img/face-care/face-mask/hydrating.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/face-mask/hydrating.png" alt="" />
             <span>Face Care, Face Mask</span>
             <h2 class="card-title">Face Mask Hydrating</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Face Mask Hydrating', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img
-              src="assets/img/face-care/face-mask/mugwort.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/face-mask/mugwort.png" alt="" />
             <span>Face Care, Face Mask</span>
             <h2 class="card-title">Face Mask Mugwort</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Face Mask Mugwort', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
@@ -314,24 +308,18 @@
         <h2 id="category-title">FACIAL CREAM</h2>
         <ul class="card-list">
           <div class="card-item">
-            <img
-              src="assets/img/face-care/acne/Acne-Cream-Day.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/acne/Acne-Cream-Day.png" alt="" />
             <span>Face Care, Cream</span>
             <h2 class="card-title">Acne Cream Day</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Acne Cream Day', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img
-              src="assets/img/face-care/acne/Acne-cream-Night.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/acne/Acne-cream-Night.png" alt="" />
             <span>Face Care, Cream</span>
             <h2 class="card-title">Acne Cream Night</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Acne Cream Night', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -341,7 +329,7 @@
             <span>Face Care, Cream</span>
             <h2 class="card-title">Brightly Cream Day</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightly Cream Day', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -351,7 +339,7 @@
             <span>Face Care, Cream</span>
             <h2 class="card-title">Brightly Cream Night</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightly Cream Night', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
@@ -359,14 +347,11 @@
         <h2 id="category-title">FACIAL ESSENCE TONER</h2>
         <ul class="card-list">
           <div class="card-item">
-            <img
-              src="assets/img/face-care/toner/Toner-Acne.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/toner/Toner-Acne.png" alt="" />
             <span>Face Care, Toner</span>
             <h2 class="card-title">Acne Essence Toner</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Acne Essence Toner', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -376,7 +361,7 @@
             <span>Face Care, Toner</span>
             <h2 class="card-title">Brightly Essence Toner</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightly Essence Toner', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
@@ -384,24 +369,18 @@
         <h2 id="category-title">FACIAL SERUM</h2>
         <ul class="card-list">
           <div class="card-item">
-            <img
-              src="assets/img/face-care/serum/Acne-Serum.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/serum/Acne-Serum.png" alt="" />
             <span>Face Care, Serum</span>
             <h2 class="card-title">Acne Serum</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Acne Serum', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img
-              src="assets/img/face-care/serum/Brightly-Serum.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/serum/Brightly-Serum.png" alt="" />
             <span>Face Care, Serum</span>
             <h2 class="card-title">Brightly Serum</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightly Serum', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -411,7 +390,7 @@
             <span>Face Care, Serum</span>
             <h2 class="card-title">Glowtening Texture Serum</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Glowtening Texture Serum', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -421,7 +400,7 @@
             <span>Face Care, Serum</span>
             <h2 class="card-title">Niacinamide 5% Beta Glucan Serum</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Niacinamide 5% Beta Glucan Serum', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -431,7 +410,7 @@
             <span>Face Care, Serum</span>
             <h2 class="card-title">Skin Smoothing Retinol Serum</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Skin Smoothing Retinol Serum', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
@@ -439,14 +418,11 @@
         <h2 id="category-title">FACIAL WASH</h2>
         <ul class="card-list">
           <div class="card-item">
-            <img
-              src="assets/img/face-care/wash/facewash1.png"
-              alt=""
-            />
+            <img src="assets/img/face-care/wash/facewash1.png" alt="" />
             <span>Face Care, Facial Wash</span>
             <h2 class="card-title">Brightening Facial Wash - All Skin Type</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Brightening Facial Wash - All Skin Type', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
             <img
@@ -456,36 +432,34 @@
             <span>Face Care, Facial Wash</span>
             <h2 class="card-title">Acne Facial Wash - Oily Skin Type</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Acne Facial Wash - Oily Skin Type', 'Rp. 75.000')"></i>
           </div>
         </ul>
       </section>
-
 
       <section class="main" id="shampoo-display">
         <h2 id="category-title">SHAMPOO & CONDITIONER</h2>
         <ul class="card-list">
           <div class="card-item">
-            <img
-              src="assets/img/hair-care/shampoo-yordanian-2.png"
-              alt=""
-            />
+            <img src="assets/img/hair-care/shampoo-yordanian-2.png" alt="" />
             <span>Hair Care, Shampoo & Conditioner</span>
             <h2 class="card-title">Yordanian Sea Salt - Conditioner</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Yordanian Sea Salt - Conditioner', 'Rp. 75.000')"></i>
           </div>
           <div class="card-item">
-            <img
-              src="assets/img/hair-care/shampoo-yordanian.png"
-              alt=""
-            />
+            <img src="assets/img/hair-care/shampoo-yordanian.png" alt="" />
             <span>Hair Care, Shampoo & Conditioner</span>
-            <h2 class="card-title">Yordanian Sea Salt - Conditioner</h2>
+            <h2 class="card-title">Yordanian Sea Salt - Shampoo</h2>
             <p>Rp. 75.000</p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" onclick="buy('Yordanian Sea Salt - Shampoo', 'Rp. 75.000')"></i>
           </div>
         </ul>
+      </section>
+
+      <div class="x"></div>
+      <section class="wa" onclick="wa()">
+        <i class="fa-brands fa-whatsapp"></i>
       </section>
 
       <i class="fa-solid fa-bars bars-icon" id="bars-icon"></i>
@@ -539,8 +513,10 @@
           </div>
         </section>
       </div>
-      <span class="copyright">Copyright © <span id="year"></span> Scarlett Whitening cloned by
-        VAF</span>
+      <span class="copyright"
+        >Copyright © <span id="year"></span> Scarlett Whitening cloned by
+        VAF</span
+      >
     </footer>
 
     <script src="script.js"></script>

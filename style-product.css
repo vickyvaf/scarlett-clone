@@ -273,10 +273,6 @@ header {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
-.card-item:hover {
-  cursor: pointer;
-}
-
 .card-item img {
   width: 280px;
   margin: 0 auto;
@@ -329,6 +325,7 @@ header {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  cursor: pointer;
 }
 
 footer {
