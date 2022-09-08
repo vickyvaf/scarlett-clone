@@ -2,7 +2,7 @@ document.getElementById("year").innerHTML = new Date().getFullYear(year);
 
 const footer = document.getElementById("footer");
 footer.style.position = "absolute";
-footer.style.bottom = "-900px";
+footer.style.bottom = "-1000px";
 
 function wa() {
   const message = "Halo Admin, saya mau tanya nih...";
