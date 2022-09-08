@@ -573,8 +573,8 @@ header {
 
   .card-list {
     margin-top: -20px;
-    width: 360px;
-    margin-right: -43px;
+    width: 350px;
+    margin-right: -35px;
     display: flex;
     padding-left: 0;
   }
