@@ -33,6 +33,10 @@ function contact(contact_name) {
   open(contact_name, "_blank");
 }
 
+function trailer() {
+  open("https://www.youtube.com/watch?v=SvjsvOUdwC4", "_blank");
+}
+
 //BODY CARE
 const bodyLotion = document.getElementById("body-lotion");
 const bodyScrub = document.getElementById("body-scrub");
