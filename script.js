@@ -10,16 +10,27 @@ function wa() {
 }
 
 function cart() {
-  alert('Mohon maaf 🙏, fitur keranjang masih dalam tahap pengembangan. Untuk pertanyaan & pembelian via WhatsApp ya kak 😁')
+  alert(
+    "Mohon maaf 🙏, fitur keranjang masih dalam tahap pengembangan. Untuk pertanyaan & pembelian via WhatsApp ya kak 😁"
+  );
 }
 
 function user() {
-  alert('Mohon maaf 🙏, fitur pengguna masih dalam tahap pengembangan. Untuk pertanyaan & pembelian via WhatsApp ya kak 😁')
+  alert(
+    "Mohon maaf 🙏, fitur pengguna masih dalam tahap pengembangan. Untuk pertanyaan & pembelian via WhatsApp ya kak 😁"
+  );
 }
 
 function buy(product_name, product_price) {
   const message = "Halo Admin, saya mau beli";
-  open(`https://wa.me/+6282340182744?text=${message} ${product_name} - ${product_price}`, "_blank");
+  open(
+    `https://wa.me/+6282340182744?text=${message} ${product_name} - ${product_price}`,
+    "_blank"
+  );
+}
+
+function contact(contact_name) {
+  open(contact_name, "_blank");
 }
 
 //BODY CARE

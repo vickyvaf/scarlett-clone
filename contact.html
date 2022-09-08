@@ -49,17 +49,20 @@
           </div>
           <hr />
           <div class="nav-right-icon">
-            <a onclick="cart()" class="fa-solid fa-cart-shopping right-item-icon"></a>
+            <a
+              onclick="cart()"
+              class="fa-solid fa-cart-shopping right-item-icon"
+            ></a>
             <a onclick="user()" class="fa-solid fa-user right-item-icon"></a>
           </div>
         </div>
       </section>
       <section class="nav-bottom">
         <div class="nav-bottom-list">
-          <a href="/" class="nav-bottom-item">Body Charming</a>
-          <a href="/" class="nav-bottom-item">Scrub Coffee</a>
-          <a href="/" class="nav-bottom-item">Brightly Serum</a>
-          <a href="/" class="nav-bottom-item">Shower Pome</a>
+          <a href="/category.html" class="nav-bottom-item">Body Charming</a>
+          <a href="/category.html" class="nav-bottom-item">Scrub Coffee</a>
+          <a href="/category.html" class="nav-bottom-item">Brightly Serum</a>
+          <a href="/category.html" class="nav-bottom-item">Shower Pome</a>
         </div>
         <div class="nav-address">
           <span class="dikirim"
@@ -90,6 +93,97 @@
         </a>
       </ul>
     </header>
+
+    <main>
+      <div class="contact-list">
+        <section class="contact-card" onclick="contact()">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h2>EMAIL</h2>
+            <h5>support@scarlett.com</h5>
+          </div>
+        </section>
+        <section class="contact-card" onclick="contact('https://www.instagram.com/scarlett_whitening/?hl=id')">
+          <i class="fa-brands fa-instagram"></i>
+          <div>
+            <h2>INSTAGRAM</h2>
+            <h5>@scarlett_whitening</h5>
+          </div>
+        </section>
+        <section class="contact-card" onclick="contact('https://www.youtube.com/channel/UCBVEjKmNUzcUAMQJH-4B_cQ')">
+          <i class="fa-brands fa-youtube"></i>
+          <div>
+            <h2>YOUTUBE</h2>
+            <h5>Scarlett Official</h5>
+          </div>
+        </section>
+        <section class="contact-card" onclick="contact('https://www.tiktok.com/@scarlett_whitening')">
+          <i class="fa-brands fa-tiktok"></i>
+          <div>
+            <h2>TIKTOK</h2>
+            <h5>@scarlett_whitening</h5>
+          </div>
+        </section>
+      </div>
+
+      <div class="x"></div>
+      <section class="wa" onclick="wa()">
+        <i class="fa-brands fa-whatsapp"></i>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <section class="footer-item">
+          <h2>Tentang Kami</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            culpa ducimus qui ipsam inventore id consequatur nulla dignissimos
+            neque dolorem debitis officia ut, nam delectus enim officiis
+            voluptatibus necessitatibus rem.
+          </p>
+        </section>
+        <section class="footer-item">
+          <h2>Kontak Servis</h2>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <p>+62 123 4567 8910</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <p>support@scarlett.com</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-pin"></i>
+            <p style="padding-left: 4px">Indonesia</p>
+          </div>
+        </section>
+        <section
+          class="footer-item layanan"
+          style="display: flex; flex-direction: column; gap: 6px"
+        >
+          <h2>Layanan</h2>
+          <a href="/index.html">Home</a>
+          <a href="/product.html">Produk</a>
+          <a href="/category.html">Kategori</a>
+          <a href="/contact.html">Kontak</a>
+        </section>
+        <section class="footer-item">
+          <div class="footer-logo">
+            <img src="assets/img/logo.png" width="170px" />
+            <div>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+          </div>
+        </section>
+      </div>
+      <span class="copyright"
+        >Copyright © <span id="year"></span> Scarlett Whitening cloned by
+        VAF</span
+      >
+    </footer>
 
     <script src="script.js"></script>
   </body>

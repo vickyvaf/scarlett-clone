@@ -584,6 +584,71 @@ footer {
   }
 }
 
+.contact-list {
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--font-main);
+  justify-content: space-evenly;
+  padding-top: 200px;
+}
+
+.contact-card {
+  width: 500px;
+  border: 2px solid var(--color-sec);
+  padding: 20px;
+  margin-bottom: 70px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  align-items: center;
+  transition: all .25s;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+}
+
+.contact-card:hover {
+  cursor: pointer;
+  border: 2px solid var(--color-sec);
+  background-color: var(--bg-main);
+}
+
+.contact-card i {
+  font-size: 90px;
+}
+
+.contact-card div {
+  padding-top: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.contact-card div h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-card div h5 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.contact-card .fa-tiktok {
+  font-size: 70px;
+  padding: 0 10px;
+}
+
 @media screen and (max-width: 1300px) {
   .footer {
     width: 800px;
@@ -603,6 +668,15 @@ footer {
 
   .copyright {
     bottom: 30px;
+  }
+
+  .contact-list {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .contact-card {
+    width: 350px;
   }
 }
 
@@ -787,6 +861,34 @@ footer {
   .x {
     bottom: 55px;
     right: 5px;
+  }
+
+  .contact-list {
+    width: 500px !important;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    flex-wrap: wrap !important;
+  }
+
+  .contact-card {
+    width: 240px !important;
+    height: 100px;
+    margin-bottom: 5px;
+  }
+
+  .contact-card i, .contact-card .fa-tiktok {
+    font-size: 40px;
+  }
+
+  .contact-card div h2 {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  .contact-card div h5 {
+    font-size: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -1035,6 +1137,35 @@ footer {
   .wa i {
     padding: 11px 12px;
     font-size: 20px;
+  }
+
+  .contact-list {
+    padding-top: 150px;
+    width: 350px !important;
+    margin: 0 auto !important;
+  }
+
+  .contact-card {
+    width: 160px !important;
+    height: 60px;
+  }
+
+  .contact-card i, .contact-card .fa-tiktok {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .contact-card div h2 {
+    font-size: 9px;
+    padding-left: -10px;
+    padding-bottom: 10px;
+  }
+
+  .contact-card div h5 {
+    font-size: 7px;
+    justify-content: center !important;
+    padding-left: -10px;
+    margin-top: -10px;
   }
 }
 
