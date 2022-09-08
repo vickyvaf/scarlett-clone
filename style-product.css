@@ -565,19 +565,22 @@ footer {
   }
 
   .card-list {
-    width: 350px !important;
+    width: 360px !important;
     flex-wrap: wrap;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
+    margin: 0 auto;
   }
 
   .card-item,
   .card-item-p {
     width: 150px !important;
-    height: 220px !important;
+    height: 250px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 0;
+    padding: 10px;
   }
 
   .card-item img {
@@ -594,24 +597,24 @@ footer {
 
   .card-item span,
   .card-item-p span {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .card-item h2,
   .card-item-p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .card-item p,
   .card-item-p p {
     padding: 5px !important;
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 
   .card-item i,
   .card-item-p i {
-    padding: 5px !important;
-    font-size: 10px !important;
+    padding: 6px !important;
+    font-size: 12px !important;
   }
 
   .showmore,
