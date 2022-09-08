@@ -1310,7 +1310,7 @@ footer {
 
   .modal-card {
     width: 380px;
-    height: 240px;
+    height: 220px;
     border: 2px solid var(--color-sec);
   }
 
@@ -1323,20 +1323,25 @@ footer {
 
   .modal-card img {
     width: 190px;
+    transform: translateY(35%);
+    -webkit-transform: translateY(35%);
+    -moz-transform: translateY(35%);
+    -ms-transform: translateY(35%);
+    -o-transform: translateY(35%);
   }
 
   .modal-hero {
     position: absolute;
     right: 10px;
-    bottom: 80px !important;
-    width: 180px !important;
-    height: 180px !important;
+    bottom: 60px !important;
+    width: 170px !important;
+    height: 170px !important;
   }
 
   .modal-title h2 {
     font-size: 18px;
     padding: 10px 30px;
-    top: 5px;
+    top: -20px;
   }
 }
 
