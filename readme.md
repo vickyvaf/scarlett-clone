@@ -13,9 +13,3 @@
 #
 
 > HTML, CSS, JS & Font Awesome
-
-#
-
-> Hasil Coding bersama DeaCourse:
-https://simple-ecommerce.vickyvaf.repl.co/
-> HTML, CSS, JS, Font Awesome, & AnimateCSS
